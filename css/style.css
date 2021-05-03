@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+}
+.navegacion{
+    background-color: #A9A9A9;
+    text-align: right;
+    height: 50px;
+}
+ul{
+    transform: translateY(15px);
+}
+ul li{
+    display: inline;
+    text-align: right;
+}
+.main__texto{
+    margin-top: 10px;
+    text-align: justify;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 16px;
+}
+.main__imagen{
+    margin-top: 10px;
+    margin-left: 20%;
+    width: 100px;
+    height: auto;
+}
+.piecito{
+    transform:translateY(calc(100vh - 80vh));
+    margin-left: 0;
+    width: 100%;
+    background-color: #A9A9A9;
+    text-align: center;
+    font-size: 16px;
+}
